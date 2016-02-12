@@ -1,0 +1,40 @@
+<%@ page import="projet.Airport" %>
+
+
+
+<div class="fieldcontain ${hasErrors(bean: airportInstance, field: 'city', 'error')} required">
+	<label for="city">
+		<g:message code="airport.city.label" default="City" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="city" required="" value="${airportInstance?.city}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: airportInstance, field: 'country', 'error')} required">
+	<label for="country">
+		<g:message code="airport.country.label" default="Country" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="country" required="" value="${airportInstance?.country}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: airportInstance, field: 'iata', 'error')} required">
+	<label for="iata">
+		<g:message code="airport.iata.label" default="Iata" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="iata" required="" value="${airportInstance?.iata}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: airportInstance, field: 'name', 'error')} required">
+	<label for="name">
+		<g:message code="airport.name.label" default="Name" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="name" required="" value="${airportInstance?.name}"/>
+
+</div>
+

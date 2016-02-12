@@ -1,0 +1,11 @@
+package projet
+
+class Airport {
+  String name;
+  String iata;
+  String city;
+  String country;
+
+  static constraints = {}
+
+}
