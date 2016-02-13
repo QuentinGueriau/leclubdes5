@@ -1,0 +1,14 @@
+package projet
+
+class Enseignement {
+	String nom;
+	static hasMany = [emargement: Emargement, sondage: Sondage]
+	
+	static mapping = {
+		emargement cascade:"all-delete-orphan"
+		sondage cascade:"all-delete-orphan"
+	}
+	
+    static constraints = {
+    }
+}

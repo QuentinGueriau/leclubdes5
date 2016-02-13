@@ -1,0 +1,51 @@
+import projet.Emargement
+import projet.Enseignement
+import projet.Sondage
+import projet.Utilisateur
+
+class BootStrap {
+
+    def init = { servletContext ->
+        environments {
+            development {
+                def user1 = new Utilisateur(nom: 'prenom1.nom1', mdp: 'azerty', droit: 0);
+				def user2 = new Utilisateur(nom: 'prenom2.nom2', mdp: 'azerty', droit: 0);
+				def user3 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: 0);
+				def ens1 = new Enseignement(nom: 'ens1');
+				def ens2 = new Enseignement(nom: 'ens2');
+				def sondage1 = new Sondage(dateDebut: new Date().copyWith(
+    year: 2016, 
+    month: Calendar.APRIL, 
+    dayOfMonth: 3, 
+    hourOfDay: 0,
+    minute: 0,
+    second: 0), dateFin: new Date().copyWith(
+    year: 2016, 
+    month: Calendar.APRIL, 
+    dayOfMonth: 3, 
+    hourOfDay: 0,
+    minute: 0,
+    second: 0));
+				ens2.sondage=sondage1;
+
+		        /*def emarg11 = new Emargement(aRepondu: false);
+				def emarg12 = new Emargement(aRepondu: false);
+				def emarg21 = new Emargement(aRepondu: true);
+				def emarg32 = new Emargement(aRepondu: true);
+		        ens1.emargement = [emarg11, emarg21];
+				ens2.emargement = [emarg12, emarg32]
+		        user1.emargement = [emarg11, emarg12];
+				user2.emargement = [emarg21];
+				user3.emargement = [emarg32];*/
+				
+				user1.save();
+				user2.save();
+				user3.save();
+                ens1.save();
+				ens2.save();
+            }
+        }
+    }
+    def destroy = {
+    }
+}

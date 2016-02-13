@@ -1,0 +1,10 @@
+package projet
+
+class Sondage {
+	Date dateDebut;
+	Date dateFin;
+	static belongsTo = [enseignement : Eneignement]
+	static hasMany = [reponses: Reponse]
+    static constraints = {
+    }
+}

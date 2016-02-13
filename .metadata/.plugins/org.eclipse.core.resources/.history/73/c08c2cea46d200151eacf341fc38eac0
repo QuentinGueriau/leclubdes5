@@ -1,0 +1,8 @@
+package projet
+
+class Enseignement {
+	String nom;
+	static hasMany = [emargement: Emargement, sondage: Sondage]
+    static constraints = {
+    }
+}

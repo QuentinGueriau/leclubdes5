@@ -1,0 +1,10 @@
+package projet
+
+class Enseignement {
+	String nom;
+	static hasMany = [emargement: Emargement, sondage: Sondage]
+
+    static constraints = {
+		nom nullable:false, blank:false, unique:true
+    }
+}

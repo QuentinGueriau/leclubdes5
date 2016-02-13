@@ -1,0 +1,8 @@
+package projet
+
+class Sondage {
+	Date dateDebut;
+	Date dateFin;
+    static constraints = {
+    }
+}

@@ -1,0 +1,9 @@
+package projet
+
+class Emargement {
+	static belongsTo = [enseignement: Enseignement];
+	static belongsTo = [enseignement: Enseignement];*
+	boolean aRepondu;
+    static constraints = {
+    }
+}
