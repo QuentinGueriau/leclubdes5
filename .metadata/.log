@@ -7779,7 +7779,23 @@ Invalid input. Must be one of [y,n] Invalid input. Must be one of [y,n] Invalid 
 !MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
 =======
 >>>>>>> 3b0eb93a340e669c9da64e9c5b15baff06faf792
+<<<<<<< HEAD
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-02-15 11:00:44.265
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 5, new: 3). Location: C:\Users\Dewey\Documents\GitHub\leclubdes5\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1599)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+=======
 >>>>>>> d29a2a23cc0508ddfb6e73a7b3ae0fb30b12e19a
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.ui 4 4 2016-02-15 11:06:47.128
 !MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
@@ -7795,3 +7811,32 @@ Invalid input. Must be one of [y,n] Invalid input. Must be one of [y,n] Invalid 
 
 !ENTRY org.eclipse.ui 4 4 2016-02-15 12:05:30.648
 !MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+=======
+>>>>>>> 06cbdbeaeadaf5dd0f821c77bc4f3d4d164615e0
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-02-15 11:09:55.890
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 5, new: 3). Location: C:\Users\Dewey\Documents\GitHub\leclubdes5\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1599)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-02-15 11:19:38.050
+!MESSAGE An internal error occurred during: "Periodic workspace save.".
+!STACK 0
+java.lang.IllegalArgumentException: Cannot set lower sequence number for root (previous: 5, new: 3). Location: C:\Users\Dewey\Documents\GitHub\leclubdes5\.metadata\.plugins\org.eclipse.core.resources\.safetable\org.eclipse.core.resources
+	at org.eclipse.core.runtime.Assert.isLegal(Assert.java:63)
+	at org.eclipse.core.internal.resources.SaveManager.validateMasterTableBeforeSave(SaveManager.java:1599)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1263)
+	at org.eclipse.core.internal.resources.SaveManager.saveMasterTable(SaveManager.java:1255)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1232)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+>>>>>>> 6dd84393a78721c68c0eab4587d9a044f359068c
