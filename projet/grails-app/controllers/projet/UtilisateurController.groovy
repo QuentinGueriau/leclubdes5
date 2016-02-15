@@ -10,23 +10,6 @@ class UtilisateurController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
-	def login()
-	{
-		
-	}
-	def changerMotDePasse()
-	{
-		
-	}
-	def ajouterUtilisateur()
-	{
-		respond new Utilisateur(params)
-	}
-	def retourMenu()
-	{
-		
-	}
-	
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond Utilisateur.list(params), model:[utilisateurInstanceCount: Utilisateur.count()]
