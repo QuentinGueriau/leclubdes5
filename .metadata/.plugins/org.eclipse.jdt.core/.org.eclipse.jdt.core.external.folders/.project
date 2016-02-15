@@ -10,29 +10,29 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link5</name>
+			<name>.link0</name>
+			<type>2</type>
+			<location>C:/Users/garni/.groovy/greclipse/global_dsld_support</location>
+		</link>
+		<link>
+			<name>.link2</name>
 			<type>2</type>
 			<location>C:/ggts-bundle/ggts-3.6.4.RELEASE/plugins/org.grails.ide.eclipse.resources_3.6.4.201503050947-RELEASE/dsl-support</location>
 		</link>
 		<link>
-			<name>.link6</name>
+			<name>.link3</name>
+			<type>2</type>
+			<location>C:/ggts-bundle/ggts-3.6.4.RELEASE/plugins/org.codehaus.groovy_2.3.10.xx-201502281941-e44/plugin_dsld_support</location>
+		</link>
+		<link>
+			<name>.link4</name>
 			<type>2</type>
 			<location>C:/ggts-bundle/grails-2.4.4/scripts</location>
 		</link>
 		<link>
-			<name>.link7</name>
+			<name>.link5</name>
 			<type>2</type>
-			<location>C:/Users/Dewey/Documents/GitHub/leclubdes5/projet/target/work/plugin-classes</location>
-		</link>
-		<link>
-			<name>.link8</name>
-			<type>2</type>
-			<location>C:/Users/Dewey/.groovy/greclipse/global_dsld_support</location>
-		</link>
-		<link>
-			<name>.link9</name>
-			<type>2</type>
-			<location>C:/ggts-bundle/ggts-3.6.4.RELEASE/plugins/org.codehaus.groovy_2.3.10.xx-201502281941-e44/plugin_dsld_support</location>
+			<location>C:/Users/garni/OneDrive/Documents/GitHub/leclubdes5/projet/target/work/plugin-classes</location>
 		</link>
 	</linkedResources>
 </projectDescription>
