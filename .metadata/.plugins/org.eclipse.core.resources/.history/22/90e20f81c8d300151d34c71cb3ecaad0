@@ -10,7 +10,7 @@
 	<g:field name="droit" type="number" value="${utilisateurInstance.droit}" required=""/>
 
 </div>
-<!-- 
+
 <div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'emargement', 'error')} ">
 	<label for="emargement">
 		<g:message code="utilisateur.emargement.label" default="Emargement" />
@@ -28,7 +28,7 @@
 
 
 </div>
--->
+
 <div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'mdp', 'error')} required">
 	<label for="mdp">
 		<g:message code="utilisateur.mdp.label" default="Mdp" />

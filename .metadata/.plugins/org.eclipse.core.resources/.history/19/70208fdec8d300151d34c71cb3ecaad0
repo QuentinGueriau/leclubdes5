@@ -8,11 +8,9 @@ class BootStrap {
     def init = { servletContext ->
         environments {
             development {
-                def user1 = new Utilisateur(nom: 'prenom1.nom1', mdp: 'azerty', droit: false);
-				def user2 = new Utilisateur(nom: 'prenom2.nom2', mdp: 'azerty', droit: false);
-				def user3 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: false);
-				def droit1 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: true);
-				
+                def user1 = new Utilisateur(nom: 'prenom1.nom1', mdp: 'azerty', droit: 0);
+				def user2 = new Utilisateur(nom: 'prenom2.nom2', mdp: 'azerty', droit: 0);
+				def user3 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: 0);
 				def ens1 = new Enseignement(nom: 'ens1');
 				def ens2 = new Enseignement(nom: 'ens2');
 				

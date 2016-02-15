@@ -3,7 +3,7 @@ package projet
 class Utilisateur {
 	String nom;
 	String mdp;
-	boolean droit;
+	int droit;
 	static hasMany = [emargement: Emargement]
     static constraints = {
     }

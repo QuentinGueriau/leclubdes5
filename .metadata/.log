@@ -7680,3 +7680,31 @@ org.eclipse.core.runtime.CoreException: The archive: C:/Program Files/Java/jdk1.
 
 !ENTRY org.eclipse.ui 4 4 2016-02-15 09:33:36.911
 !MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 09:54:21.439
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.grails.ide.eclipse.core 4 0 2016-02-15 10:00:27.363
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: The archive: C:/Program Files/Java/jdk1.8.0_31/lib/tools.jar which is referenced by the classpath, does not exist.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1406)
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1391)
+	at org.eclipse.jdt.launching.JavaRuntime.resolveRuntimeClasspathEntry(JavaRuntime.java:955)
+	at org.eclipse.jdt.launching.StandardClasspathProvider.resolveClasspath(StandardClasspathProvider.java:75)
+	at org.eclipse.jdt.launching.JavaRuntime.resolveRuntimeClasspath(JavaRuntime.java:1258)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.getClasspath(AbstractJavaLaunchConfigurationDelegate.java:412)
+	at org.grails.ide.eclipse.core.launch.GrailsLaunchConfigurationDelegate.launch(GrailsLaunchConfigurationDelegate.java:278)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 150 2016-02-15 10:00:27.363
+!MESSAGE The archive: C:/Program Files/Java/jdk1.8.0_31/lib/tools.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 10:11:39.045
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 10:44:25.985
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
