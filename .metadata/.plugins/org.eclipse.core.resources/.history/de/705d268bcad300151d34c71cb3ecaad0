@@ -29,16 +29,14 @@
 
 </div>
 
-<!--
-<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'mdp', 'error')} required">
+<--<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'mdp', 'error')} required">
 	<label for="mdp">
 		<g:message code="utilisateur.mdp.label" default="Mdp" />
 		<span class="required-indicator">*</span>
 	</label>
 	<g:textField name="mdp" required="" value="${utilisateurInstance?.mdp}"/>
 
-</div>
--->
+</div>-->
 
 <div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'nom', 'error')} required">
 	<label for="nom">

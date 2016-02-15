@@ -6,6 +6,5 @@ class Utilisateur {
 	boolean droit;
 	static hasMany = [emargement: Emargement]
     static constraints = {
-		
     }
 }

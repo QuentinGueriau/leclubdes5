@@ -27,7 +27,7 @@
 				<li class="fieldcontain">
 					<span id="droit-label" class="property-label"><g:message code="utilisateur.droit.label" default="Droit" /></span>
 					
-						<span class="property-value" aria-labelledby="droit-label"><g:fieldValue bean="${utilisateurInstance}" field="droit"/></span>
+						<span class="property-value" aria-labelledby="droit-label"><g:formatBoolean boolean="${utilisateurInstance?.droit}" /></span>
 					
 				</li>
 				</g:if>
