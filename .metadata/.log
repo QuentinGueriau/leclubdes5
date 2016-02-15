@@ -7780,3 +7780,18 @@ Invalid input. Must be one of [y,n] Invalid input. Must be one of [y,n] Invalid 
 =======
 >>>>>>> 3b0eb93a340e669c9da64e9c5b15baff06faf792
 >>>>>>> d29a2a23cc0508ddfb6e73a7b3ae0fb30b12e19a
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:06:47.128
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:29:02.003
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:54:31.604
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:55:33.393
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 12:05:30.648
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}

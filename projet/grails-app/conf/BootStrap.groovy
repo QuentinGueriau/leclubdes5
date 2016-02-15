@@ -8,10 +8,10 @@ class BootStrap {
     def init = { servletContext ->
         environments {
             development {
-                def user1 = new Utilisateur(nom: 'prenom1.nom1', mdp: 'azerty', droit: false);
-				def user2 = new Utilisateur(nom: 'prenom2.nom2', mdp: 'azerty', droit: false);
-				def user3 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: false);
-				def droit1 = new Utilisateur(nom: 'prenom3.nom3', mdp: 'azerty', droit: true);
+                /*def user1 = new Utilisateur(prenom: 'prenom1.nom1',nom: 'prenom1.nom1',identifiant:'', mdp: 'azerty', droit: false);
+				def user2 = new Utilisateur(prenom: 'prenom1.nom1',nom: 'prenom2.nom2',identifiant:'', mdp: 'azerty', droit: false);
+				def user3 = new Utilisateur(prenom: 'prenom1.nom1',nom: 'prenom3.nom3',identifiant:'', mdp: 'azerty', droit: false);
+				def droit1 = new Utilisateur(prenom: 'prenom1.nom1',nom: 'prenom3.nom3',identifiant:'', mdp: 'azerty', droit: true);
 				
 				def ens1 = new Enseignement(nom: 'ens1');
 				def ens2 = new Enseignement(nom: 'ens2');
@@ -40,6 +40,7 @@ class BootStrap {
 				user1.save();
 				user2.save();
 				user3.save();
+				droit1.save();
 				ens1.save();
 				ens2.save();
 				
@@ -64,7 +65,7 @@ class BootStrap {
 				user2.save();
 				user3.save();
 				ens1.save();
-				ens2.save();
+				ens2.save();*/
             }
         }
     }
