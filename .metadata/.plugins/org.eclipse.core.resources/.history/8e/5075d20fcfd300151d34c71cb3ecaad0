@@ -1,0 +1,13 @@
+package projet
+
+class Utilisateur {
+	String prenom;
+	String nom;
+	string identifiant;
+	String mdp;
+	boolean droit;
+	static hasMany = [emargement: Emargement]
+    static constraints = {
+		
+    }
+}

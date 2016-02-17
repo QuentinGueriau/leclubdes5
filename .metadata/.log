@@ -7795,6 +7795,23 @@ java.lang.IllegalArgumentException: Cannot set lower sequence number for root (p
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
 =======
 >>>>>>> d29a2a23cc0508ddfb6e73a7b3ae0fb30b12e19a
+<<<<<<< HEAD
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:06:47.128
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:29:02.003
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:54:31.604
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 11:55:33.393
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-15 12:05:30.648
+!MESSAGE Conflicting handlers for org.eclipse.jdt.ui.edit.text.java.refactor.quickMenu: {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@7a8495a} vs {org.eclipse.jdt.internal.ui.actions.JDTQuickMenuCreator$1@72752c99}
+=======
 >>>>>>> 06cbdbeaeadaf5dd0f821c77bc4f3d4d164615e0
 
 !ENTRY org.eclipse.core.jobs 4 2 2016-02-15 11:09:55.890
@@ -7822,6 +7839,7 @@ java.lang.IllegalArgumentException: Cannot set lower sequence number for root (p
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.core.jobs 4 2 2016-02-15 12:08:28.494
 !MESSAGE An internal error occurred during: "Periodic workspace save.".
@@ -8020,3 +8038,6 @@ java.lang.IllegalArgumentException: Cannot set lower sequence number for root (p
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1144)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+=======
+>>>>>>> 6dd84393a78721c68c0eab4587d9a044f359068c
+>>>>>>> 9016185f56db7c9ba8b5b6c8259b3b129851623d

@@ -2,6 +2,42 @@
 
 
 
+<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'nom', 'error')} required">
+	<label for="nom">
+		<g:message code="utilisateur.nom.label" default="Nom" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="nom" required="" value="${utilisateurInstance?.nom}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'prenom', 'error')} required">
+	<label for="prenom">
+		<g:message code="utilisateur.prenom.label" default="Prenom" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="prenom" required="" value="${utilisateurInstance?.prenom}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'identifiant', 'error')} ">
+	<label for="identifiant">
+		<g:message code="utilisateur.identifiant.label" default="Identifiant" />
+		
+	</label>
+	<g:textField name="identifiant" value="${utilisateurInstance?.identifiant}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'mdp', 'error')} ">
+	<label for="mdp">
+		<g:message code="utilisateur.mdp.label" default="Mdp" />
+		
+	</label>
+	<g:textField name="mdp" value="${utilisateurInstance?.mdp}"/>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'droit', 'error')} ">
 	<label for="droit">
 		<g:message code="utilisateur.droit.label" default="Droit" />
@@ -26,26 +62,6 @@
 </li>
 </ul>
 
-
-</div>
-
-<!--
-<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'mdp', 'error')} required">
-	<label for="mdp">
-		<g:message code="utilisateur.mdp.label" default="Mdp" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField name="mdp" required="" value="${utilisateurInstance?.mdp}"/>
-
-</div>
--->
-
-<div class="fieldcontain ${hasErrors(bean: utilisateurInstance, field: 'nom', 'error')} required">
-	<label for="nom">
-		<g:message code="utilisateur.nom.label" default="Nom" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField name="nom" required="" value="${utilisateurInstance?.nom}"/>
 
 </div>
 

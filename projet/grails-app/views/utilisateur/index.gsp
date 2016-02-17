@@ -24,11 +24,15 @@
 			<thead>
 					<tr>
 					
-						<g:sortableColumn property="droit" title="${message(code: 'utilisateur.droit.label', default: 'Droit')}" />
+						<g:sortableColumn property="nom" title="${message(code: 'utilisateur.nom.label', default: 'Nom')}" />
+					
+						<g:sortableColumn property="prenom" title="${message(code: 'utilisateur.prenom.label', default: 'Prenom')}" />
+					
+						<g:sortableColumn property="identifiant" title="${message(code: 'utilisateur.identifiant.label', default: 'Identifiant')}" />
 					
 						<g:sortableColumn property="mdp" title="${message(code: 'utilisateur.mdp.label', default: 'Mdp')}" />
 					
-						<g:sortableColumn property="nom" title="${message(code: 'utilisateur.nom.label', default: 'Nom')}" />
+						<g:sortableColumn property="droit" title="${message(code: 'utilisateur.droit.label', default: 'Droit')}" />
 					
 					</tr>
 				</thead>
@@ -36,11 +40,15 @@
 				<g:each in="${utilisateurInstanceList}" status="i" var="utilisateurInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${utilisateurInstance.id}">${fieldValue(bean: utilisateurInstance, field: "droit")}</g:link></td>
+						<td><g:link action="show" id="${utilisateurInstance.id}">${fieldValue(bean: utilisateurInstance, field: "nom")}</g:link></td>
+					
+						<td>${fieldValue(bean: utilisateurInstance, field: "prenom")}</td>
+					
+						<td>${fieldValue(bean: utilisateurInstance, field: "identifiant")}</td>
 					
 						<td>${fieldValue(bean: utilisateurInstance, field: "mdp")}</td>
 					
-						<td>${fieldValue(bean: utilisateurInstance, field: "nom")}</td>
+						<td><g:formatBoolean boolean="${utilisateurInstance.droit}" /></td>
 					
 					</tr>
 				</g:each>
