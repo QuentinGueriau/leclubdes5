@@ -6,6 +6,6 @@ class Enseignement {
 
     static constraints = {
 		nom (nullable:false, blank:false, unique:true)
-		sondage (nullable:true)
+		Sondage (nullable:true)
     }
 }

@@ -5,7 +5,7 @@ class Enseignement {
 	static hasMany = [emargement: Emargement, sondage: Sondage]
 
     static constraints = {
-		nom (nullable:false, blank:false, unique:true)
-		sondage (nullable:true)
+		nom nullable:false, blank:false, unique:true
+		
     }
 }
